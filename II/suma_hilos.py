@@ -11,7 +11,7 @@ def calcular_suma(numeros, inicio, fin, resultado):
 if __name__ == '__main__':
     #numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     numeros = [x for x in range(100000000)]
-    num_hilos = 1
+    num_hilos = 4
     # Calcular la cantidad de sublistas
     len_sublistas = len(numeros) // num_hilos
     
